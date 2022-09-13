@@ -98,13 +98,46 @@
 //	return 0;
 //}
 
-extern int Add(int x, int y);
+//extern int Add(int x, int y);
+//
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	int sum = Add(a, b);
+//	printf("sum=%d\n", sum);
+//	return 0;
+//}
 
-int main()
-{
-	int a = 10;
-	int b = 20;
-	int sum = Add(a, b);
-	printf("sum=%d\n", sum);
-	return 0;
-}
+//#define ADD(x,y) ((x)+(y))
+////define定义常量与宏
+//int main()
+//{
+//	printf("%d\n", 4* ADD(2, 3));
+//	return 0;
+//}
+
+//int main()
+//{
+//
+//	int a = 10;//a在地址中要分配空间的-4个字节
+//	printf("%p\n", &a);//%p专门打印地址的
+//
+//	int* pa = &a; 
+//	//	pa是用来存放地址的，在C语言中PA是指针变量
+//		//  *表示pa是指针变量，int说明对象是int整型的
+//	char ch = 'w';
+//	char *pc = &ch;
+//	return 0;
+//}
+
+//int main()
+//{
+//
+//	int a = 10;
+//	int* pa = &a;
+//	* pa = 20;//*解引用操作，*pa就是通过a的地址，找到a
+//	printf("%d\n", a);
+//	printf("%d\n", sizeof(char*));
+//	return 0;
+//}

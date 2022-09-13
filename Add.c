@@ -1,8 +1,8 @@
 
-//全局变量
-//static int g_val = 2022;
-
-int Add(int x, int y)
-{
-	return x + y;
-}
+////全局变量
+////static int g_val = 2022;
+//
+//int Add(int x, int y)
+//{
+//	return x + y;
+//}

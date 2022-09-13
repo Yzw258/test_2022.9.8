@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="Add.c" />
     <ClCompile Include="test2022.9.8.c" />
+    <ClCompile Include="test2022.9.9.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
