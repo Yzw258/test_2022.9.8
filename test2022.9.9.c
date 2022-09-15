@@ -338,3 +338,36 @@
 //	}
 //	return 0;
 //}
+
+//int main()
+//{
+//	//交换a、b的值
+//	int a = 3;
+//	int b = 5;
+//	printf("a=%d ,b=%d\n", a, b);
+//	a = a ^ b;//a^a=0,a^0=a;
+//	b = a ^ b;
+//	a = a ^ b;
+//	printf("a=%d ,b=%d", a, b);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int a = 3;
+//	int b = 0;
+//	//三目操作符
+//	b = (a > 5 ? 1 : -1);//真b=1,假b=-1;
+//	return 0;
+//}
+
+//int main()
+//{
+//	int a = 2;
+//	int b = 3;
+//	int c = 4;
+//	int d = (c = 1, b = c + 3, a = b - 1);
+//	//从左向右依次执行，整个表达式的结果是最后一个表达式的结果；
+//	printf("%d", d);
+//	return 0;
+//}
